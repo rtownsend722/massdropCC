@@ -46,7 +46,7 @@ redis-server
 
 You can use the command line to interact with the REST API.
 
-Example: Add a job to the queue (note: this application accepts url's in the form 'www.example.com' and 'example.com')
+Example: Add a job to the queue (note: this application accepts url's in the form "www.google.com" and 'google.com')
 
 ```
 curl -X POST http://localhost:3000/queue \                  
@@ -59,4 +59,3 @@ Example: Retrieve job status or results using transaction id returned from POST 
 curl -X GET http://localhost:3000/queue \                                                           
 -d id=1     
 ```
-# massdropCC
