@@ -1,0 +1,21 @@
+{
+  "name": "massdrop",
+  "version": "1.0.0",
+  "description": "Massdrop Coding Challenges",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Rebecca Townsend",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "kue": "^0.11.6",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.2",
+    "redis": "^2.8.0",
+    "sequelize": "^4.34.0"
+  }
+}
